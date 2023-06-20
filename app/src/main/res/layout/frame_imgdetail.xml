@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/characterImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/characterText"
+        android:padding="15dp"
+        android:background="@color/skyblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/characterTag"
+        android:layout_width="match_parent"
+        android:background="@color/skyblue"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/characterDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="7dp"
+        android:text="TextView" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
